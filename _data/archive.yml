@@ -1,9 +1,9 @@
 - type: dates
-  title: Dates
-  url: /dates/
+  title: 프로젝트
+  url: /
 #- type: categories
 #  title: Categories
 #  url: /categories/
 - type: tags
-  title: Tags
-  url: /tags/
+  title: 코드리뷰
+  url: /codeReview/
