@@ -1,6 +1,6 @@
 ---
 layout: archive-taxonomies
-permalink: /codeReview/
-title: codeReview
+permalink: /tags/
+title: 태그
 type: tags
 ---

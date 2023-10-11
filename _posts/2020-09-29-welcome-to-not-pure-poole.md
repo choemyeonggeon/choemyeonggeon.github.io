@@ -2,8 +2,9 @@
 layout: post
 title: Welcome to Not Pure Poole
 last_modified_at: 2020-10-01 01:08:25 +0800
-tags: [jekyll theme, jekyll, tutorial]
+tags: [React, AI]
 toc: true
+# permalink: /tags/
 ---
 
 Welcome to **Not Pure Poole**! This is an example post to show the layout.

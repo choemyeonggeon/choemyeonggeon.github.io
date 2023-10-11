@@ -5,5 +5,5 @@
 #  title: Categories
 #  url: /categories/
 - type: tags
-  title: 코드리뷰
-  url: /codeReview/
+  title: 태그
+  url: /tags/

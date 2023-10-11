@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Releasing Not Pure Poole v0.1.0
-author: Songzi Vong
+title: Build-Up
+permalink: /Build-Up/
 tags:
-- jekyll theme
-- jekyll
+  - React
+  - MyBatis
 date: 2020-10-01 13:56 +0800
 ---
-The Jekyll theme **Not Pure Poole** v0.1.0 was released!
+
+리액트와 MyBatis를 이용한 프로젝트입니다.
 
 Not Pure Poole is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
 

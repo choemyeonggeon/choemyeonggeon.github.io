@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 댕댕비엔비
-tags: mathjax
+tags: [React, JSP]
 math: true
+permalink: /ddbnb/
 ---
 
 리액트와 JSP를 이용한 프로젝트입니다.
