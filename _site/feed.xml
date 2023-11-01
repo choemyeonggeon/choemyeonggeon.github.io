@@ -1,15 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-10-11T11:11:47+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">최명건 포트폴리오</title><subtitle>여러번 실패하는자가 성공한다.</subtitle><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><entry><title type="html">댕댕비엔비</title><link href="http://localhost:4000/ddbnb/" rel="alternate" type="text/html" title="댕댕비엔비" /><published>2020-10-02T00:00:00+09:00</published><updated>2020-10-02T00:00:00+09:00</updated><id>http://localhost:4000/testing-mathjax</id><content type="html" xml:base="http://localhost:4000/ddbnb/">&lt;p&gt;리액트와 JSP를 이용한 프로젝트입니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-01T16:53:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">최명건 포트폴리오</title><subtitle>여러번 실패하는자가 성공한다.</subtitle><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><entry><title type="html">댕댕비엔비</title><link href="http://localhost:4000/ddbnb/" rel="alternate" type="text/html" title="댕댕비엔비" /><published>2020-10-02T00:00:00+09:00</published><updated>2020-10-02T00:00:00+09:00</updated><id>http://localhost:4000/testing-mathjax</id><content type="html" xml:base="http://localhost:4000/ddbnb/">&lt;p&gt;&lt;strong&gt;리액트와 JSP를 이용한 프로젝트입니다.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;An inline math: \(E=mc^2\).&lt;/p&gt;
+&lt;h2 id=&quot;프로젝트-개요&quot;&gt;프로젝트 개요&lt;/h2&gt;
 
-&lt;p&gt;A display math:&lt;/p&gt;
+&lt;p&gt;댕댕비엔비는 애완동물 소유자와 돌봐줄 수 있는 돌보미를 연결해주는 플랫폼입니다. 이 프로젝트는 소유자들이 필요한 돌보미를 찾을 수 있도록 하고, 돌보미들이 애완동물을 돌봐줄 수 있는 기회를 제공합니다.&lt;/p&gt;
 
-\[i\hbar \frac{\partial \Psi}{\partial t} = -\frac{\hbar^2}{2m}
-\frac{\partial^2 \Psi}{\partial x^2} + V \Psi\]</content><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><category term="React" /><category term="JSP" /><summary type="html">리액트와 JSP를 이용한 프로젝트입니다.</summary></entry><entry><title type="html">Build-Up</title><link href="http://localhost:4000/Build-Up/" rel="alternate" type="text/html" title="Build-Up" /><published>2020-10-01T14:56:00+09:00</published><updated>2020-10-01T14:56:00+09:00</updated><id>http://localhost:4000/releasing-not-pure-poole-v0-1-0</id><content type="html" xml:base="http://localhost:4000/Build-Up/">&lt;p&gt;리액트와 MyBatis를 이용한 프로젝트입니다.&lt;/p&gt;
+&lt;h2 id=&quot;기술-스택&quot;&gt;기술 스택&lt;/h2&gt;
 
-&lt;p&gt;Not Pure Poole is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on &lt;a href=&quot;https://github.com/poole/poole&quot;&gt;Poole&lt;/a&gt; and &lt;a href=&quot;https://purecss.io/&quot;&gt;Pure&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;리액트 (Front-end 개발)&lt;/strong&gt;: 사용자 인터페이스를 구현하기 위해 리액트를 활용했습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;JSP (Back-end 개발)&lt;/strong&gt;: 백엔드 로직을 구현하고 데이터베이스와의 효율적인 통신을 위해 JSP를 사용했습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ORACLE (DataBase 구축)&lt;/strong&gt;: 원활한 데이터 통신을 위해 oracle로 데이터베이스를 구축했습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AWS, DOCKER (베포)&lt;/strong&gt;: 저희가 만든 프로젝트를 베포를 해보기 위해 AWS와 DOCKER를 이용했습니다.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;For more information about this theme, you can read the &lt;a href=&quot;https://github.com/vszhub/not-pure-poole/blob/master/README.md&quot;&gt;README&lt;/a&gt; file.&lt;/p&gt;</content><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><category term="React" /><category term="MyBatis" /><summary type="html">리액트와 MyBatis를 이용한 프로젝트입니다.</summary></entry><entry><title type="html">Welcome to Not Pure Poole</title><link href="http://localhost:4000/2020/09/29/welcome-to-not-pure-poole/" rel="alternate" type="text/html" title="Welcome to Not Pure Poole" /><published>2020-09-29T00:00:00+09:00</published><updated>2020-10-01T02:08:25+09:00</updated><id>http://localhost:4000/2020/09/29/welcome-to-not-pure-poole</id><content type="html" xml:base="http://localhost:4000/2020/09/29/welcome-to-not-pure-poole/">&lt;p class=&quot;message&quot;&gt;Welcome to &lt;strong&gt;Not Pure Poole&lt;/strong&gt;! This is an example post to show the layout.&lt;/p&gt;
+&lt;h2 id=&quot;프로젝트-역할&quot;&gt;프로젝트 역할&lt;/h2&gt;
+
+&lt;p&gt;저는 이 프로젝트에서 &lt;strong&gt;front-end와 back-end에서 게시판, DBA&lt;/strong&gt;를 담당했습니다. 리액트를 사용하여 사용자 인터페이스를 구현하고, 백엔드를 이용해 데이터 통신을 설정했습니다.&lt;/p&gt;
+
+&lt;p&gt;DataBase 모델링은 DA#5를 이용해 쉽고 빠르게 구조를 만들었습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;제가-맡은-주요-기능&quot;&gt;제가 맡은 주요 기능&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;REST API&lt;/strong&gt;: 게시판에 데이터들을 조회, 작성, 수정, 삭제를 자신의 암호화된 ID의 키값을 기준으로 가능하도록 구현했습니다.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../img/펫시터모집.png&quot; alt=&quot;대체 텍스트&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;원하는 조건 검색&lt;/strong&gt;: 원하는 조건으로 게시판의 내용들을 찾아 볼 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;메시지 교환 기능&lt;/strong&gt;: 소유자와 돌보미 간의 메시지 교환을 편리하게 할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;신청 시스템&lt;/strong&gt;: 애완동물 돌봄 신청을 쉽게 처리할 수 있으며 작성자는 신청자들의 목록을 볼 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;리뷰 작성&lt;/strong&gt;: 돌봄이 끝난 후 신청을 했던 사용자만 리뷰를 작성을 할 수 있습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;결과&quot;&gt;결과&lt;/h2&gt;
+
+&lt;p&gt;댕댕비엔비 프로젝트를 진행을 하면서 팀원들과 연계를 해서 만들어야 하는부분에서 소통이 모자라 코드부분을 전체적으로 수정을 했던 기억이 있습니다.
+협업에 있어 제일 중요한건 소통이라고 이떄 느끼게 되었던것 같습니다. 그 후에 소통을 중시하면서 열심히 만들어 전체적으로 매끄럽게 만들고 좋게 끝난 기억이
+있어 재미있게 프로젝트를 했던 것 같습니다.&lt;/p&gt;
+
+&lt;!-- [코드 리뷰 보기](/ddbnb/code-review/)   --&gt;</content><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><category term="React" /><category term="JSP" /><summary type="html">리액트와 JSP를 이용한 프로젝트입니다.</summary></entry><entry><title type="html">Build-Up</title><link href="http://localhost:4000/Build-Up/" rel="alternate" type="text/html" title="Build-Up" /><published>2020-10-01T14:56:00+09:00</published><updated>2020-10-01T14:56:00+09:00</updated><id>http://localhost:4000/releasing-not-pure-poole-v0-1-0</id><content type="html" xml:base="http://localhost:4000/Build-Up/">&lt;p&gt;&lt;strong&gt;리액트와 MyBatis를 이용한 프로젝트입니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;프로젝트-개요&quot;&gt;프로젝트 개요&lt;/h2&gt;
+
+&lt;p&gt;Build-Up은 회사내에서 사용가능한 에자일방식의 협업툴 프로젝트입니다.
+자신의 번호로 속해있는 프로젝트에 참가해 고객들과 소통을해 문제점들을 백로그에
+저장을 하며 문제점들을 사원들과 이슈를 잡고 스프린트를 통해 기간내에 해결한다는 주제로 만들게 되었습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;기술-스택&quot;&gt;기술 스택&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;리액트 (Front-end 개발)&lt;/strong&gt;: 사용자 인터페이스를 구현하기 위해 리액트를 활용했습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MyBatis&lt;/strong&gt; : 프로젝트 코드와 SQL에 쿼리문을 분리해서 해보기 위해 MyBatis를 이용한 프로젝트를 진행하였습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ORACLE (DataBase 구축)&lt;/strong&gt;: 원활한 데이터 통신을 위해 oracle로 데이터베이스를 구축했습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AWS, DOCKER (베포)&lt;/strong&gt;: 저희가 만든 프로젝트를 베포를 해보기 위해 AWS와 DOCKER를 이용했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;프로젝트-역할&quot;&gt;프로젝트 역할&lt;/h2&gt;
+
+&lt;p&gt;저는 이 프로젝트에서 &lt;strong&gt;front-end와 back-end에서 백로그와 DBA&lt;/strong&gt; 를 담당했습니다. 리액트를 이용해 자신이 속해있는 프로젝트에서 권한여부를 비교하며 백엔드 통신을 연결했습니다.&lt;/p&gt;
+
+&lt;p&gt;DataBase 모델링은 DA#5를 이용해 쉽고 빠르게 구조를 만들었습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;제가-맡은-주요-기능&quot;&gt;제가 맡은 주요 기능&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;REST API&lt;/strong&gt;: 백로그에 데이터들을 조회, 작성, 수정, 삭제를 맡았고 권한 유뮤를 비교해
+백로그 생성 수정 삭제를 가능하도록 구현 권한은 없지만 프로젝트에 참여해 있는 인원은 조회가 가능하도록 구현을 했습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;페이징 처리&lt;/strong&gt;: 한페이지에 5개의 백로그들만 보이게 구현을 했고 그 이후에 생성되는 백로그들은 페이징처리를 이용해 페이지를 자동으로 늘려가며 보이도록 구현을 했습니다.
+페이지도 10개의 페이지 이상으로 증가하면 버튼을 통해 이동하도록 구현했습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;검색&lt;/strong&gt;: 빠른 검색을 할 수 있도록 제목, 내용, 백로그 상태, 우선순위를 모두 검색조건에 넣어 자신이 원하는 키워드를 검색을 해서 빠르게 볼 수 있도록 구현했습니다. 검색도 페이징을 같이 적용시켰습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/백로그.PNG&quot; alt=&quot;대체 텍스트&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;결과&quot;&gt;결과&lt;/h2&gt;
+
+&lt;p&gt;처음에 백로그 부분을 맡았을떄에 저는 첫프로젝트를 진행하면서 팀원들과 연결해야는 부분들이
+많아 생각보다 코드가 많이 바뀌게 되었던 것 같습니다. 무작정 코드만 짜기보다 팀원들과 구조를
+더 자세히 짜보고 더 의논을 많이 했더라면 더 좋은 기능과 화면이 나왔을거 같다고 생각이들어 아쉬움이 컸습니다. 다행인건 일찍 느껴 서로의 코드들을 이해하면서 구현을 하면서 구조에 대해서 한번 더 생각해보면서 만들어 수월했던 기억이 남아 난관을 극복했다고 생각을해 뿌듯함도 들었습니다. 시간내에 목표치를 만들었다는 것에 큰 의미를 둔 프로젝트였던 것 같습니다.&lt;/p&gt;</content><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><category term="React" /><category term="MyBatis" /><summary type="html">리액트와 MyBatis를 이용한 프로젝트입니다.</summary></entry><entry><title type="html">Welcome to Not Pure Poole</title><link href="http://localhost:4000/2020/09/29/welcome-to-not-pure-poole/" rel="alternate" type="text/html" title="Welcome to Not Pure Poole" /><published>2020-09-29T00:00:00+09:00</published><updated>2020-10-01T02:08:25+09:00</updated><id>http://localhost:4000/2020/09/29/welcome-to-not-pure-poole</id><content type="html" xml:base="http://localhost:4000/2020/09/29/welcome-to-not-pure-poole/">&lt;p class=&quot;message&quot;&gt;Welcome to &lt;strong&gt;Not Pure Poole&lt;/strong&gt;! This is an example post to show the layout.&lt;/p&gt;
 
 &lt;p&gt;First, do you notice the TOC on the right side? Try to scroll down to read this post, you’ll find that the TOC is always sticky in the viewport.&lt;/p&gt;
 
