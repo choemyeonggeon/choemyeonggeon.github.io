@@ -1,170 +1,46 @@
 ---
 layout: post
-title: Welcome to Not Pure Poole
+title: You Film Face?
 last_modified_at: 2020-10-01 01:08:25 +0800
-tags: [React, AI]
+tags: [React, AI, JSP]
 toc: true
 # permalink: /tags/
 ---
 
-Welcome to **Not Pure Poole**! This is an example post to show the layout.
-{: .message }
+**리액트와 JSP와 AI 연동 프로젝트입니다.**
 
-First, do you notice the TOC on the right side? Try to scroll down to read this post, you'll find that the TOC is always sticky in the viewport.
+## 프로젝트 개요
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. _Aenean eu leo quam._ Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+You Film Face는 사용자의 사진이미지로 감정분석을 통한 컨텐츠 추천을 해주는 프로젝트입니다.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+## 기술 스택
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+- **리액트 (Front-end 개발)**: 사용자 인터페이스를 구현하기 위해 리액트를 활용했습니다.
+- **JSP (Back-end 개발)**: 백엔드 로직을 구현하고 데이터베이스와의 효율적인 통신을 위해 JSP를 사용했습니다.
+- **MySQL (DataBase 구축)**: 원활한 데이터 통신을 위해 MySQL로 데이터베이스를 구축했습니다.
+- **AWS, DOCKER (베포)**: 저희가 만든 프로젝트를 베포를 해보기 위해 AWS와 DOCKER를 이용했습니다.
+- **YouTube Data API v3** : 감정분석을 통한 결과로 YoutubeAPI를 이용해 영상의 데이터를 받아왔습니다.
 
-## Inline HTML elements
+## 프로젝트 역할
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+저는 이 프로젝트에서 **front-end와 back-end에서 감정분석 결과를 받아와 감정에 따른 컨텐츠 추천, DBA**를 담당했습니다. 리액트를 사용하여 사용자 인터페이스를 구현하고, 백엔드를 이용해 데이터 통신을 설정했습니다.
 
-- **To bold text**, use `<strong>`.
-- _To italicize text_, use `<em>`.
-- <mark>To highlight</mark>, use `<mark>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark Otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+DataBase 모델링은 DA#5를 이용해 쉽고 빠르게 구조를 만들었습니다.
 
-Most of these elements are styled by browsers with few modifications on our part.
+## 제가 맡은 주요 기능
 
-## Footnotes
+1. **감정분석 결과에 따른 유튜브,책,운동,음악 추천** : 각 회원과 비회원의 감정분석결과의 마지막 감정분석 결과를 가져와 감정에 따라 YoutubeAPi를 이용한 영상 추천을 맡았습니다.
+2. **회원별 감정분석 조회** : 회원의 감정분석결과들을 마이페이지에서 조회할 수 있도록 구현했습니다.
 
-Footnotes are supported as part of the Markdown syntax. Here's one in action. Clicking this number[^fn-sample_footnote] will lead you to a footnote. The syntax looks like:
+   ![대체 텍스트](../img/펫시터모집.png)
 
-{% highlight text %}
-Clicking this number[^fn-sample_footnote]
-{% endhighlight %}
+3. **원하는 조건 검색**: 원하는 조건으로 게시판의 내용들을 찾아 볼 수 있습니다.
+4. **메시지 교환 기능**: 소유자와 돌보미 간의 메시지 교환을 편리하게 할 수 있습니다.
+5. **신청 시스템**: 애완동물 돌봄 신청을 쉽게 처리할 수 있으며 작성자는 신청자들의 목록을 볼 수 있습니다.
+6. **리뷰 작성**: 돌봄이 끝난 후 신청을 했던 사용자만 리뷰를 작성을 할 수 있습니다.
 
-Each footnote needs the `^fn-` prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:
+## 결과
 
-{% highlight text %}
-[^fn-sample_footnote]: Handy! Now click the return link to go back.
-{% endhighlight %}
-
-You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.
-
-## Heading
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-### Code
-
-Inline code is available with the `<code>` element. Snippets of multiple lines of code are supported through Rouge. Longer lines will automatically scroll horizontally when needed. You may also use code fencing (triple backticks) for rendering code.
-
-{% highlight js %}
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-{% endhighlight %}
-
-You may also optionally show code snippets with line numbers. Add `linenos` to the Rouge tags.
-
-{% highlight js linenos %}
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-{% endhighlight %}
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-### Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-- Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-- Donec id elit non mi porta gravida at eget metus.
-- Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-<dl>
-  <dt>HyperText Markup Language (HTML)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-
-  <dt>Cascading Style Sheets (CSS)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-
-  <dt>JavaScript (JS)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](http://placehold.it/800x400 "Large example image")
-![placeholder](http://placehold.it/400x200 "Medium example image")
-![placeholder](http://placehold.it/200x200 "Small example image")
-
-Align to the center by adding `class="align-center"`:
-
-![placeholder](http://placehold.it/400x200 "Medium example image"){: .align-center}
-
-### Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
----
-
-Want to see something else added? <a href="https://github.com/vszhub/not-pure-poole/issues/new">Open an issue.</a>
-
-[^fn-sample_footnote]: Handy! Now click the return link to go back.
+댕댕비엔비 프로젝트를 진행을 하면서 팀원들과 연계를 해서 만들어야 하는부분에서 소통이 모자라 코드부분을 전체적으로 수정을 했던 기억이 있습니다.
+협업에 있어 제일 중요한건 소통이라고 이떄 느끼게 되었던것 같습니다. 그 후에 소통을 중시하면서 열심히 만들어 전체적으로 매끄럽게 만들고 좋게 끝난 기억이
+있어 재미있게 프로젝트를 했던 것 같습니다.
