@@ -2,6 +2,7 @@
 layout: post
 title: Build-Up
 permalink: /Build-Up/
+toc: true
 tags:
   - React
   - MyBatis

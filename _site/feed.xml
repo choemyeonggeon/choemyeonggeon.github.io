@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-01T17:24:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">최명건 포트폴리오</title><subtitle>여러번 실패하는자가 성공한다.</subtitle><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><entry><title type="html">댕댕비엔비</title><link href="http://localhost:4000/ddbnb/" rel="alternate" type="text/html" title="댕댕비엔비" /><published>2020-10-02T00:00:00+09:00</published><updated>2020-10-02T00:00:00+09:00</updated><id>http://localhost:4000/testing-mathjax</id><content type="html" xml:base="http://localhost:4000/ddbnb/">&lt;p&gt;&lt;strong&gt;리액트와 JSP를 이용한 프로젝트입니다.&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-13T19:55:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">최명건 포트폴리오</title><subtitle>여러번 실패하는자가 성공한다.</subtitle><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><entry><title type="html">댕댕비엔비</title><link href="http://localhost:4000/ddbnb/" rel="alternate" type="text/html" title="댕댕비엔비" /><published>2020-10-02T00:00:00+09:00</published><updated>2020-10-02T00:00:00+09:00</updated><id>http://localhost:4000/testing-mathjax</id><content type="html" xml:base="http://localhost:4000/ddbnb/">&lt;p&gt;&lt;strong&gt;리액트와 JSP를 이용한 프로젝트입니다.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;프로젝트-개요&quot;&gt;프로젝트 개요&lt;/h2&gt;
 
@@ -103,20 +103,15 @@
 &lt;h2 id=&quot;제가-맡은-주요-기능&quot;&gt;제가 맡은 주요 기능&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;감정분석 결과에 따른 유튜브,책,운동,음악 추천&lt;/strong&gt; : 각 회원과 비회원의 감정분석결과의 마지막 감정분석 결과를 가져와 감정에 따라 YoutubeAPi를 이용한 영상 추천을 맡았습니다.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;회원별 감정분석 조회&lt;/strong&gt; : 회원의 감정분석결과들을 마이페이지에서 조회할 수 있도록 구현했습니다.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../img/펫시터모집.png&quot; alt=&quot;대체 텍스트&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;원하는 조건 검색&lt;/strong&gt;: 원하는 조건으로 게시판의 내용들을 찾아 볼 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;메시지 교환 기능&lt;/strong&gt;: 소유자와 돌보미 간의 메시지 교환을 편리하게 할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;신청 시스템&lt;/strong&gt;: 애완동물 돌봄 신청을 쉽게 처리할 수 있으며 작성자는 신청자들의 목록을 볼 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;리뷰 작성&lt;/strong&gt;: 돌봄이 끝난 후 신청을 했던 사용자만 리뷰를 작성을 할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;감정분석 결과에 따른 유튜브,책,운동,음악 추천&lt;/strong&gt; : 각 회원과 비회원의 감정분석결과의 마지막 감정분석 결과를 가져와 감정에 따라 Youtube Data APi v3를 이용한 영상 추천을 맡았습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;회원별 감정분석 조회&lt;/strong&gt; : 회원의 감정분석결과들을 마이페이지에서 조회할 수 있도록 구현했습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;추천문구&lt;/strong&gt; : 사용자들이 보고 힘을 얻도록 문구들을 랜덤으로 하나 뽑아 조회할떄마다 바뀌는 기능을 구현했습니다.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/프로젝트사진.png&quot; alt=&quot;대체 텍스트&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;결과&quot;&gt;결과&lt;/h2&gt;
 
-&lt;p&gt;댕댕비엔비 프로젝트를 진행을 하면서 팀원들과 연계를 해서 만들어야 하는부분에서 소통이 모자라 코드부분을 전체적으로 수정을 했던 기억이 있습니다.
-협업에 있어 제일 중요한건 소통이라고 이떄 느끼게 되었던것 같습니다. 그 후에 소통을 중시하면서 열심히 만들어 전체적으로 매끄럽게 만들고 좋게 끝난 기억이
-있어 재미있게 프로젝트를 했던 것 같습니다.&lt;/p&gt;</content><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><category term="React" /><category term="AI" /><category term="JSP" /><summary type="html">리액트와 JSP와 AI 연동 프로젝트입니다.</summary></entry></feed>
+&lt;p&gt;이번 You Film Face 프로젝트에서 youtube Data API v3를 사용중에 유튜브의 링크를 가져오는중에 spring Security에 막혀 링크를 온전히 가져오지 못하는 문제가 생겼습니다.
+이런 문제를 해결하기 위해서 유튜브 링크를 온전히 가져오기위헤 방화벽을 해제후 가져오는 코드를 구현하면서 정상적인 데이터를 뽑아오는 일이 있었습니다.
+모르는 부분이였기에 좋은 경험을 했던 프로젝트라 기억에 많이 남았던 것 같습니다.&lt;/p&gt;</content><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><category term="React" /><category term="AI" /><category term="JSP" /><summary type="html">리액트와 JSP와 AI 연동 프로젝트입니다.</summary></entry></feed>

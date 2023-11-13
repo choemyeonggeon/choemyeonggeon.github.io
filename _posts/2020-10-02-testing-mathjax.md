@@ -4,6 +4,7 @@ title: 댕댕비엔비
 tags: [React, JSP]
 math: true
 permalink: /ddbnb/
+toc: true
 ---
 
 **리액트와 JSP를 이용한 프로젝트입니다.**
