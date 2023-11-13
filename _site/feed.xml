@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-13T19:55:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">최명건 포트폴리오</title><subtitle>여러번 실패하는자가 성공한다.</subtitle><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><entry><title type="html">댕댕비엔비</title><link href="http://localhost:4000/ddbnb/" rel="alternate" type="text/html" title="댕댕비엔비" /><published>2020-10-02T00:00:00+09:00</published><updated>2020-10-02T00:00:00+09:00</updated><id>http://localhost:4000/testing-mathjax</id><content type="html" xml:base="http://localhost:4000/ddbnb/">&lt;p&gt;&lt;strong&gt;리액트와 JSP를 이용한 프로젝트입니다.&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-13T20:52:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">최명건 포트폴리오</title><subtitle>여러번 실패하는자가 성공한다.</subtitle><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><entry><title type="html">댕댕비엔비</title><link href="http://localhost:4000/ddbnb/" rel="alternate" type="text/html" title="댕댕비엔비" /><published>2020-10-02T00:00:00+09:00</published><updated>2020-10-02T00:00:00+09:00</updated><id>http://localhost:4000/testing-mathjax</id><content type="html" xml:base="http://localhost:4000/ddbnb/">&lt;p&gt;&lt;strong&gt;리액트와 JSP를 이용한 프로젝트입니다.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;프로젝트-개요&quot;&gt;프로젝트 개요&lt;/h2&gt;
 
@@ -22,16 +22,18 @@
 &lt;h2 id=&quot;제가-맡은-주요-기능&quot;&gt;제가 맡은 주요 기능&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;REST API&lt;/strong&gt;: 게시판에 데이터들을 조회, 작성, 수정, 삭제를 자신의 암호화된 ID의 키값을 기준으로 가능하도록 구현했습니다.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../img/펫시터모집.png&quot; alt=&quot;대체 텍스트&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;원하는 조건 검색&lt;/strong&gt;: 원하는 조건으로 게시판의 내용들을 찾아 볼 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;메시지 교환 기능&lt;/strong&gt;: 소유자와 돌보미 간의 메시지 교환을 편리하게 할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;신청 시스템&lt;/strong&gt;: 애완동물 돌봄 신청을 쉽게 처리할 수 있으며 작성자는 신청자들의 목록을 볼 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;리뷰 작성&lt;/strong&gt;: 돌봄이 끝난 후 신청을 했던 사용자만 리뷰를 작성을 할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;REST API&lt;/strong&gt;: 게시판에 데이터들을 조회, 작성, 수정, 삭제를 자신의 암호화된 ID의 키값을 기준으로 가능하도록 구현했습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;원하는 조건 검색&lt;/strong&gt;: 원하는 조건으로 게시판의 내용들을 찾아 볼 수 있습니다.
+&lt;img src=&quot;../img/펫시터모집.png&quot; alt=&quot;대체 텍스트&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;신청 시스템&lt;/strong&gt;: 애완동물 돌봄 신청을 쉽게 처리할 수 있으며 작성자는 신청자들의 목록을 볼 수 있습니다.
+  &lt;img src=&quot;../img/신청자목록.png&quot; alt=&quot;대체 텍스트&quot; width=&quot;300px&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;리뷰 작성&lt;/strong&gt;: 돌봄이 끝난 후 신청을 했던 사용자만 리뷰를 작성을 할 수 
+있습니다.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;div style=&quot;display: flex; justify-content: space-between; align-items: center;&quot;&gt;
+    &lt;img src=&quot;../img/리뷰작성전.png&quot; alt=&quot;대체 텍스트&quot; style=&quot;width: 300px;&quot; /&gt;
+    &lt;img src=&quot;../img/리뷰작성.png&quot; alt=&quot;대체 텍스트&quot; style=&quot;width: 300px;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;h2 id=&quot;결과&quot;&gt;결과&lt;/h2&gt;
 
@@ -78,7 +80,7 @@
 
 &lt;p&gt;처음에 백로그 부분을 맡았을떄에 저는 첫프로젝트를 진행하면서 팀원들과 연결해야는 부분들이
 많아 생각보다 코드가 많이 바뀌게 되었던 것 같습니다. 무작정 코드만 짜기보다 팀원들과 구조를
-더 자세히 짜보고 더 의논을 많이 했더라면 더 좋은 기능과 화면이 나왔을거 같다고 생각이들어 아쉬움이 컸습니다. 다행인건 일찍 느껴 서로의 코드들을 이해하면서 구현을 하면서 구조에 대해서 한번 더 생각해보면서 만들어 수월했던 기억이 남아 난관을 극복했다고 생각을해 뿌듯함도 들었습니다. 시간내에 목표치를 만들었다는 것에 큰 의미를 둔 프로젝트였던 것 같습니다.&lt;/p&gt;</content><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><category term="React" /><category term="MyBatis" /><summary type="html">리액트와 MyBatis를 이용한 프로젝트입니다.</summary></entry><entry><title type="html">You Film Face?</title><link href="http://localhost:4000/2020/09/29/welcome-to-not-pure-poole/" rel="alternate" type="text/html" title="You Film Face?" /><published>2020-09-29T00:00:00+09:00</published><updated>2020-10-01T02:08:25+09:00</updated><id>http://localhost:4000/2020/09/29/welcome-to-not-pure-poole</id><content type="html" xml:base="http://localhost:4000/2020/09/29/welcome-to-not-pure-poole/">&lt;p&gt;&lt;strong&gt;리액트와 JSP와 AI 연동 프로젝트입니다.&lt;/strong&gt;&lt;/p&gt;
+더 자세히 짜보고 더 의논을 많이 했더라면 더 좋은 기능과 화면이 나왔을거 같다고 생각이들어 아쉬움이 컸습니다. 다행인건 일찍 느껴 서로의 코드들을 이해하면서 구현을 하면서 구조에 대해서 한번 더 생각해보면서 만들어 수월했던 기억이 남아 난관을 극복했다고 생각을해 뿌듯함도 들었습니다. 시간내에 목표치를 만들었다는 것에 큰 의미를 둔 프로젝트였던 것 같습니다.&lt;/p&gt;</content><author><name>choemyeonggeon</name><email>choemyeongge@gmail.com</email></author><category term="React" /><category term="MyBatis" /><summary type="html">리액트와 MyBatis를 이용한 프로젝트입니다.</summary></entry><entry><title type="html">You Film Face?</title><link href="http://localhost:4000/YouFilmFace/" rel="alternate" type="text/html" title="You Film Face?" /><published>2020-09-29T00:00:00+09:00</published><updated>2020-09-29T00:00:00+09:00</updated><id>http://localhost:4000/welcome-to-not-pure-poole</id><content type="html" xml:base="http://localhost:4000/YouFilmFace/">&lt;p&gt;&lt;strong&gt;리액트와 JSP와 AI 연동 프로젝트입니다.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;프로젝트-개요&quot;&gt;프로젝트 개요&lt;/h2&gt;
 
@@ -103,12 +105,13 @@
 &lt;h2 id=&quot;제가-맡은-주요-기능&quot;&gt;제가 맡은 주요 기능&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;감정분석 결과에 따른 유튜브,책,운동,음악 추천&lt;/strong&gt; : 각 회원과 비회원의 감정분석결과의 마지막 감정분석 결과를 가져와 감정에 따라 Youtube Data APi v3를 이용한 영상 추천을 맡았습니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;감정분석 결과에 따른 유튜브,책,운동,음악 추천&lt;/strong&gt; : 각 회원과 비회원의 감정분석결과의 마지막 감정분석 결과를 가져와 감정에 따라 Youtube Data APi v3를 이용한 영상 추천을 맡았습니다.
+&lt;img src=&quot;../img/project.png&quot; alt=&quot;대체 텍스트&quot; /&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;회원별 감정분석 조회&lt;/strong&gt; : 회원의 감정분석결과들을 마이페이지에서 조회할 수 있도록 구현했습니다.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;추천문구&lt;/strong&gt; : 사용자들이 보고 힘을 얻도록 문구들을 랜덤으로 하나 뽑아 조회할떄마다 바뀌는 기능을 구현했습니다.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;../img/프로젝트사진.png&quot; alt=&quot;대체 텍스트&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../img/mypage.png&quot; alt=&quot;대체 텍스트&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;결과&quot;&gt;결과&lt;/h2&gt;
 
